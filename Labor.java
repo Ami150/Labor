@@ -7,11 +7,11 @@ public class Labor
     private int anzPlätze= 20;
     
     
-    public Labor (String neuGebäude, int neuStock, boolean neuBeamer, int neuAnzPlätze){
-        setGebäude(neuGebäude);
-        setStock(neuStock);
-        setBeamer(neuBeamer);
-        setAnzPlätze(neuAnzPlätze);
+    public Labor (String gebäude, int stock, boolean beamer, int anzPlätze){
+        setGebäude(gebäude);
+        setStock(stock);
+        setBeamer(beamer);
+        setAnzPlätze(anzPlätze);
     }
     
     public Labor (String neuGebäude, int neuStock, boolean neuBeamer){
@@ -49,22 +49,22 @@ public class Labor
         setAnzPlätze(20);
     }
     
-    public void setGebäude (String neuGebäude) {
+    public void setGebäude (String gebäude) {
     
-        gebäude = neuGebäude;
+        this.gebäude = gebäude;
     }
     
     
-    public void setStock(int neuStock) {
-        stock = neuStock;
+    public void setStock(int stock) {
+        this.stock = stock;
     }
     
-    public void setBeamer(boolean neuBeamer){
-        beamer = neuBeamer;
+    public void setBeamer(boolean beamer){
+        this.beamer = beamer;
     }
     
-    public void setAnzPlätze(int neuAnzPlätze) {
-        anzPlätze = neuAnzPlätze;
+    public void setAnzPlätze(int anzPlätze) {
+        this.anzPlätze = anzPlätze;
     }
     
     
